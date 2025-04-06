@@ -82,7 +82,7 @@ A FastAPI + Celery + Redis based app to scrape flight details from FlightStats.
               │   ├── flight_page.py              # Abstractions over HTML structure
               │   └── parser.py                   # HTML parsing logic using BeautifulSoup 
 
-		      ├── test_cases/                     # Unit Test cases
+		  ├── test_cases/                     # Unit Test cases
               │   ├── pytest                      # Pytest configuration
               │   └── test_main.py                # Test cases
 
